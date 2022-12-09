@@ -1,0 +1,15 @@
+.login-form {
+    @apply grid gap-y-3.5 max-w-screen-sm w-full border p-8 rounded-xl;
+    div {
+        @apply grid gap-y-1.5;
+        input {
+            @apply border p-5 rounded;
+        }
+        small {
+            @apply text-red-500;
+        }
+    }
+    input[type='submit'] {
+        @apply bg-blue-500 text-white p-5 rounded shadow-xl hover:shadow-none; 
+    }
+}

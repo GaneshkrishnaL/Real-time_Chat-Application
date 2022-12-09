@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chatbox {
+    @apply grid;
+    grid-template-columns: 25% auto 25%;
+}
+
+.details {
+    @apply grid gap-y-5;
+    div {
+        @apply grid;
+        input {
+            @apply bg-gray-100 px-5 py-4 rounded mt-1.5 border;
+        }
+        small {
+            @apply ml-2 mt-2 text-red-500;
+        }
+    }
+}
