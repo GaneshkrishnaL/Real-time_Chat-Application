@@ -1,4 +1,6 @@
 # Real-time_Chat-Application
+Chech the Chat Application here: http://34.67.247.47/login
+
 minimal chat application on google cloud
 # Chat application
 
